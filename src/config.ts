@@ -30,5 +30,5 @@ if (configFile.openaiApiKey === undefined) {
 export const Config: IConfig = {
   openaiApiKey: configFile.openaiApiKey,
   openaiOrganizationID: configFile.openaiOrganizationID || "",
-  chatgptTriggerKeyword: configFile.chatgptTriggerKeyword || "",
+  chatgptTriggerKeyword: configFile.chatgptTriggerKeyword || "多多GPT",
 };
